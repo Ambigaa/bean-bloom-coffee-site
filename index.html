@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./bean-bloom.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bean & Bloom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  </head>
+  <body class="pt-20 bg-black">
+    <!-- header section -->
+    <header class="fixed top-0 left-0 z-50 w-full bg-black text-white ">
+      <div class="container mx-auto px-6">
+        <nav class="flex items-center justify-between py-4">
+          <div class="flex items-center space-x-2">
+          <img src="./bean-bloom.png" alt="logo" class="w-10 h-10 rounded-full">
+          <a href="#" alt="bean" class="text-xl font-semibold tracking-wide ">Bean & Bloom</a>
+          </div>
+          <div class="hidden md:flex items-center space-x-8 pe-10">
+            <a href="#home" class="text-lg hover:underline hover:decoration-2 underline-offset-4 decoration-[#6f4e37]">Home</a>
+            <a href="#story" class="text-lg hover:underline hover:decoration-2 underline-offset-4 decoration-[#6f4e37]">Story</a>
+            <a href="#brews" class="text-lg hover:underline hover:decoration-2 underline-offset-4 decoration-[#6f4e37]">Brews</a>
+            <a href="#gallery" class="text-lg hover:underline hover:decoration-2 underline-offset-4 decoration-[#6f4e37]">Gallery</a>
+            
+          </div>
+          
+
+      </nav>
+      </div>
+    </header>
+    <!-- hero section -->
+    <section id="home" class=" bg-black min-h-screen flex flex-col md:flex-row items-center py-10 px-6 md:px-16">
+      <div class="flex-1  text-white animate-slide-in-left">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 ">Where Beans <span class="text-[#6F4E37]"> Bloom</span>  Into Moments </h1>
+        <p class="text-lg md:text-2xl text-gray-300 mb-6">Crafted coffee, slow moments, and flavors that grow on you - one cup at a time.</p>
+        <a href="#brews" alt="" class="inline-block bg-[#6F4E37] hover:bg-[#8B5E3C] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+          Explore Brews
+        </a>
+      </div>
+      <div class="flex-1 hidden md:flex justify-center animate-fade-in">
+        <img src="./hero-pic.jpeg" alt="coffee" class="w-3/4 max-w-md object-contain">
+      </div>
+    </section>
+
+    <!-- story section -->
+    <section id="story" class="bg-[#0d0d0d] text-white py-20 px-6 md:px-16">
+      <!-- section  -->
+       <div class="max-w-4xl mx-auto text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-semibold mb-4">Our Story</h2>
+        <p class="text-gray-400 text-lg">A philosophy brewed slowly </p>
+       </div>
+       <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center mb-20">
+        
+        <div class="space-y-6">
+          <p class="text-lg text-gray-300 leading-relaxed">
+            Bean & Bloom is built on a simple belief -
+            life doesn't always need to rush.
+          </p>
+          <p class="text-lg text-gray-300 leading-relaxed">
+            In a world moving fast, we choose to slow down.
+            To brew with care. To sit longer. To taste more.
+          </p>
+          <p class="text-lg text-gray-300 leading-relaxed">
+           Every bean is thoughtfully sourced, every cup carefully crafted,
+           so moments can bloom, quietly, warmly, meaningfully.
+          </p>
+          <p class="italic text-[#6F4E37] text-lg">
+            "Where beans bloom into moments.."
+          </p>
+        </div>
+
+        <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-8 text-center flex items-center hover:shadow-xl hover:shadow-[#6F4E37]">
+          <img src="./cof1.png" alt="cofee" class="w-25 h-25">
+          <p class="text-xl text-gray-200 leading-relaxed">
+            Coffee is not just a drink here -
+            <br class="hidden md:block">
+            it's a pause between moments.
+          </p>
+        </div>
+       </div>
+
+       <!-- Reviews -->
+       <div class="max-w-6xl mx-auto">
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+          <!-- review1 -->
+           <div class="bg-white/5 backdrop-blue-md border border-white/10 rounded-xl p-6 hover:shadow hover:shadow-[#6F4E37]">
+            <p class="text-gray-300 mb-4">
+              "Bean & Bloom feels like a pause I didn't know I needed."
+            </p>
+            <p class="text-sm text-[#6F4E37] font-medium">
+              - Aarav
+            </p>
+           </div>
+           <!-- review2 -->
+            <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:shadow hover:shadow-[#6F4E37]">
+            <p class="text-gray-300 mb-4">
+              "It's not just coffee, it's a mood - warm, calm, real."
+            </p>
+            <p class="text-sm text-[#6F4E37] font-medium ">
+              - Agni
+            </p>
+           </div>
+           <!-- review3 -->
+            <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-6 hover:shadow hover:shadow-[#6F4E37]">
+            <p class="text-gray-300 mb-4">
+              "A place where time slows down and thoughts settle."
+            </p>
+            <p class="text-sm text-[#6F4E37] font-medium">
+              - Vaseela
+            </p>
+           </div>
+        </div>
+       </div>
+    </section>
+
+    <!-- brew section -->
+     <section id="brews" class="bg-[#14110e] py-20 px-6 md:px-16">
+
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-semibold text-white mb-4">Signature Brews</h2>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+          Thoughtfully crafted blends that define the soul of Bean & Bloom.
+        </p>
+      </div>
+
+      <!-- brew1 -->
+       <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12 mb-20 animate-slide-in-right">
+
+        <div class="flex-1">
+          <img src="./bloom.jpg" alt="bloom roast" class="w-72 h-72 rounded-3xl mx-auto object-contain hover:shadow-lg hover:shadow-[#6F4E37]">
+        </div>
+        <div class="flex-1 text-white">
+          <h3 class="text-2xl md:text-4xl font-semibold mb-3">Bloom Roast</h3>
+          <p class="text-[#6F4E37] text-lg mb-4">
+            Bold. Grounded. Comforting.
+          </p>
+          <p class="text-gray-300 text-lg leading-relaxed max-w-md">
+            A deep, slow-brewed roast with rich chocolate notes and a smooth finish -
+            created for quiet mornings and meaningful pauses.
+          </p>
+        </div>
+
+       </div>
+
+       <!-- brew2 -->
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-10 animate-slide-in-left ">
+
+          <div class="flex-1">
+          <img src="./golden.jpg" alt="bloom roast" class="w-72 h-72 rounded-3xl mx-auto object-contain hover:shadow-lg hover:shadow-[#6F4E37]">
+        </div>
+        <div class="flex-1 text-white md:ml-25">
+          <h3 class="text-2xl md:text-4xl font-semibold mb-3">Golden Bloom Latte</h3>
+          <p class="text-[#6F4E37] text-lg mb-4">
+            Soft. Balanced. Indulgent.
+          </p>
+          <p class="text-gray-300 text-lg leading-relaxed max-w-md">
+            Silky milk blended with a mellow roast and gentle sweetness -
+            designed to linger, not rush.
+          </p>
+        </div>
+
+        </div>
+     </section>
+
+     <!-- gallery -->
+      <section id="gallery" class="bg-black py-24 px-6 md:px-16">
+
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-5xl font-semibold text-white mb-4">Gallery</h2>
+          <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+            Moments, brews and quiet corners from Bean & Bloom
+          </p>
+        </div>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+          <div class="group overflow-hidden rounded-2xl">
+            <img src="./gal1.jpg" alt="coffee moment" class="w-full h-64 object-cover
+             transition-transform duration-500 group-hover:scale-105">
+          </div>
+          <div class="group overflow-hidden rounded-2xl">
+            <img src="./gal2.jpg" alt="Latte art" class="w-full h-64 object-cover
+             transition-transform duration-500 group-hover:scale-105">
+          </div>
+          <div class="group overflow-hidden rounded-2xl">
+            <img src="./gal3.jpg" alt="coffee brewing" class="w-full h-64 object-cover
+             transition-transform duration-500 group-hover:scale-105">
+          </div>
+          <div class="group overflow-hidden rounded-2xl">
+            <img src="./gal4.jpg" alt="cafe interior" class="w-full h-64 object-cover
+             transition-transform duration-500 group-hover:scale-105">
+          </div>
+          <div class="group overflow-hidden rounded-2xl">
+            <img src="./cof-pin6.jpg" alt="pouring coffee" class="w-full h-64 object-cover
+             transition-transform duration-500 group-hover:scale-105">
+          </div>
+          <div class="group overflow-hidden rounded-2xl ">
+            <img src="./gal6.jpg" alt="coffee cup" class="w-full h-64 object-cover
+             transition-transform duration-500 group-hover:scale-105">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- footer section -->
+       <footer class="bg-[#0b0a08] text-gray-300 pt-16 pb-8 px-6 md:px-16 border-t border-white/10">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+
+          <div>
+            <div class="flex items-center space-x-3 mb-4">
+              <img src="./bean-bloom.png" alt="logo" class="w-10 h-10 rounded-full">
+              <span class="text-xl font-semibold text-white">Bean & Bloom</span>
+            </div>
+            <p class="text-sm text-gray-400 max-w-xs leading-relaxed">
+              Where beans bloom into moments...
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Visit Us</h4>
+            <ul class="space-y-2 text-sm text-gray-400">
+              <li class="flex items-center space-x-2 cursor-pointer">
+                <i class="fa-solid fa-location-dot text-red-700 "></i>
+                <span>Chennai, India</span>
+              </li>
+              <li class="flex items-center space-x-2 cursor-pointer">
+                <i class="fa-solid fa-phone text-green-700"></i>
+                <span>+91 98765 43210</span>
+              </li>
+              <li class="flex items-center space-x-2 cursor-pointer">
+                <i class="fa-solid fa-envelope text-yellow-700"></i>
+                <span>hellobeanandbloom@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Follow</h4>
+            <div class="flex space-x-5 text-xl">
+              <a href="#" >
+                <i class="fa-brands fa-instagram text-pink-400 hover:text-[#6F4E37] transition-colors"></i>
+              </a>
+              <a href="#" >
+                <i class="fa-brands fa-facebook text-blue-600 hover:text-[#6F4E37] transition-colors"></i>
+              </a>
+              <a href="#">
+                <i class="fa-brands fa-x-twitter text-gray-400 hover:text-[#6F4E37] transition-colors"></i>
+              </a>
+             
+            </div>
+          </div>
+        </div>
+        <div class="mt-12 text-center text-xs text-gray-500">
+          &copy; 2025 Bean & Bloom. All Rights Reserved
+        </div>
+
+       </footer>
+  </body>
+</html>

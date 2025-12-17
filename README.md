@@ -20,6 +20,10 @@ https://bean-and-bloom.vercel.app/
 
 ![wireframe](public/wireframe.jpeg)
 
+## Output Screenshot
+
+![desktop view](public/desktop.png)
+
 ## Author
 
 Ambigaa - 2025

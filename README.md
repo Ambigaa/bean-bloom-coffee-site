@@ -14,15 +14,9 @@ A simple coffee shop landing page built using HTML, CSS and Tailwindcss.
 
 ## Live Demo
 
-https://bean-and-bloom.vercel.app/
+https://bloomed-bean-cafe.vercel.app/
 
-## Wireframe
 
-![wireframe](public/wireframe.jpeg)
-
-## Output Screenshot
-
-![desktop view](public/desktop.png)
 
 ## Author
 

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://bloomed-bean-cafe.vercel.app/sitemap.xml
